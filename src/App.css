@@ -1,38 +1,150 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  background-color: #eee;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+
+ .navbar{
+   background-color: #689F38;
+   display: flex;
+  justify-content: space-between;
+  color: white;
+ }
+ .navbar h2{
+   padding: 20px;
+ }
+
+ .container{
+  width: 100%;
+  padding-right: 25%;
+  padding-left: 25%;
+  margin-right: auto;
+  margin-left: auto;
+ }
+
+
+.categoryBlock{
+  /* width: 90%; */
+  background-color: white;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+ .categoryDiv{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+  .categoryDiv >* {
+    flex: 0 0 25%;
+}
+ .categoryDiv .box{
+   width: 140px;
+   height: 140px;
+   background-color: lightgrey;
+ }
+ .categoryDiv p{
+   margin-top: 10px ;
+   margin-bottom: 25px;
+ }
+
+ .seemore{
+  width: 80%;
+  background-color: #8BC34A;
+  color: white;
+  margin: 0 auto;
+  padding: 5px;
+}
+ .seemore h3{
+   text-align: center;
+ }
+.icons{
+  /* width: 480px; */
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px; 
+}
+ .icons .icon { 
+  font-size: 60px;
+  border: 1px solid #8BC34A;
+  border-radius: 50%;
+  padding: 10px;
+  color: #8BC34A;
+ }
+
+.btn-green{
+  display: inline-block;
+  font-weight: 400;
   text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  color: #fff;
+    background-color: #8BC34A;
+    border-color: #8BC34A;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.catBlock{
+  width: 100%;
+  background-color: white;
+  margin: 20px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.catHeading{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.itemImg{
+  display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.itemImg div{
+  width: 200px;
+  height: 200px;
+  background-color: lightgrey;
+  margin: 10px;
+}
+.itemImg img{
+  width: 200px;
+  height: 200px;
+}
+
+.banner{
+  width: 90%;
+  /* height: 120px;
+  background-color: #8BC34A; */
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.banner img{
+  width: 100%;
+  height: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer{
+  width: 200px;
+  margin: 20px auto 20px auto;
+}
+
+.footer p{
+  padding: 2px;
 }
