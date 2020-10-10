@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fotonicia-ui/static/css/main.f163a27a.chunk.css",
+    "main.js": "/fotonicia-ui/static/js/main.f08d7812.chunk.js",
+    "main.js.map": "/fotonicia-ui/static/js/main.f08d7812.chunk.js.map",
+    "runtime-main.js": "/fotonicia-ui/static/js/runtime-main.9cedfd59.js",
+    "runtime-main.js.map": "/fotonicia-ui/static/js/runtime-main.9cedfd59.js.map",
+    "static/js/2.7f1a1956.chunk.js": "/fotonicia-ui/static/js/2.7f1a1956.chunk.js",
+    "static/js/2.7f1a1956.chunk.js.map": "/fotonicia-ui/static/js/2.7f1a1956.chunk.js.map",
+    "index.html": "/fotonicia-ui/index.html",
+    "precache-manifest.60452e093988feff73e3d13db17d1641.js": "/fotonicia-ui/precache-manifest.60452e093988feff73e3d13db17d1641.js",
+    "service-worker.js": "/fotonicia-ui/service-worker.js",
+    "static/css/main.f163a27a.chunk.css.map": "/fotonicia-ui/static/css/main.f163a27a.chunk.css.map",
+    "static/js/2.7f1a1956.chunk.js.LICENSE.txt": "/fotonicia-ui/static/js/2.7f1a1956.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9cedfd59.js",
+    "static/js/2.7f1a1956.chunk.js",
+    "static/css/main.f163a27a.chunk.css",
+    "static/js/main.f08d7812.chunk.js"
+  ]
+}
